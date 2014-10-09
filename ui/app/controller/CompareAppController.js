@@ -219,7 +219,7 @@ Ext.define('TableApparatusApp.controller.CompareAppController', {
         params: {
           'version1': version1,
           'version2': version2,
-          'diff_kind': 'deleted'
+          'diff_kind': 'deleted',
         },
         scope: controller,
         success: function(response) {
